@@ -5,18 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello City</title>
+        <title> About US | Hello City</title>
 
        </head>
     <body>
-       <h1>Hello From Tunisia</h1>
-
-
-       <p>it's currently {{ date('h:i A') }} .</p>
+       <p> built with &hearts; by Imed</p>
+       <p><a href="/"> Revenir à la page d'acceuil </a></p>
 
        <footer>
 
-       <p>&copy; Copyright {{ date('Y') }} &middot; <a href='/about-us'> About Us <a></p>
+       <p>
+           &copy; Copyright {{ date('Y') }} &middot; 
+       </p>
        </footer>
     </body>
 
